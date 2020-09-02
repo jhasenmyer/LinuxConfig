@@ -25,5 +25,4 @@ alias dconn='docker exec -it '
 # DOCKER Aliases
 alias dps='docker ps --format "table {{.ID}}\t{{printf \"%.40s\" .Image}}\t{{.Ports}}\t{{.Names}}"'
 
-export ASPNETCORE_ENVIRONMENT=Development
 export EDITOR="vim"
